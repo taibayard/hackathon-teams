@@ -4,7 +4,6 @@ function allTeams() {
   var teams = fs.readFileSync('./models/data.json');
   return JSON.parse(teams);
 }
-
 function getTeam(teamName) {
   var teams = allTeams();
 
